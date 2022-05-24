@@ -1,0 +1,112 @@
+p {
+	font-size: 30px;
+}
+
+img {
+	width: 200px;
+}
+
+img:hover {
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+	transition: 5s linear;
+}
+
+input {
+	width: 250px;
+	height: 150px;
+	color: blue;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+.menu {
+    transform: translate( 29em, -12.2em);
+}
+
+table {
+  border-collapse: collapse; 
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, #439400, #439400);
+  color: black;
+}
+caption {
+  font-family: annabelle, cursive;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px; 
+  color: #F3CD26;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+ }
+caption:before, caption:after {
+  content: "\274B";
+  color: #A9E2CC;
+  margin: 0 10px;
+}
+th {
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
+}
+td {
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
+}
+.first {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+table {
+	transform: translate( 23em, -25.0em);
+
+}
+
+
+
+
+tr:hover {
+	color: #67E300;
+	transition: 3s linear;
+}
+
+
+a {
+	font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: repeating-linear-gradient(white, white 2px, #A9F16C 2px, #A9F16C 3px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #A9F16C;
+  display: table;
+  margin: 20px auto;
+  transform: translate( -12em, 0em);
+
+}
+
+h1 {
+	color: green;
+}
+
+.menu:hover {
+	color: black;
+	transition: 3s linear;
+}
+
+
+
+
+
+
+
